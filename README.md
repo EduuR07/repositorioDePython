@@ -31,7 +31,7 @@ Separamos 80% dos registros para treinamento e 20% para teste, tomando cuidado p
 
 Na parte de modelagem, testamos 24 configurações do GMM, variando a quantidade de componentes de 1 a 6 e utilizando quatro tipos de covariância: `full`, `tied`, `diag` e `spherical`.
 
-Para comparar os modelos, utilizamos BIC, AIC e log-verossimilhança no conjunto de teste.
+Para comparar os modelos, utilizamos BIC e AIC nos dados de treinamento e a log-verossimilhança no conjunto de teste.
 
 ## Resultados
 
